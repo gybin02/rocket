@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.2"
 
     defaultConfig {
-        applicationId "com.orhanobut.android.beesample"
+        applicationId "com.meiyou.plugin.sample"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1

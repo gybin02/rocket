@@ -1,85 +1,38 @@
-<LinearLayout
+<RelativeLayout
     android:id="@+id/main_container"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@android:color/transparent"
     android:paddingBottom="56dp"
-    android:paddingTop="25dp"
+    android:paddingTop="72dp"
+
     android:visibility="gone"
     tools:visibility="visible">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#40000000"
-        android:orientation="horizontal"
-        android:paddingBottom="1dp"
-        android:paddingTop="8dp">
 
-        <ImageView
-            android:id="@+id/close"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="8dp"
-            android:src="@drawable/close"/>
-
-        <View
-            android:layout_width="0dp"
-            android:layout_height="1dp"
-            android:layout_weight="1"/>
-
-        <ImageView
-            android:id="@+id/settings"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="8dp"
-            android:src="@drawable/settings"/>
-
-        <ImageView
-            android:id="@+id/info"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="8dp"
-            android:src="@drawable/info"/>
-
-        <ImageView
-            android:id="@+id/log"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="8dp"
-            android:src="@drawable/log"/>
-
-    </LinearLayout>
-
-    <LinearLayout
+    <ListView
+        android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/transparent"
-        android:orientation="vertical">
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/rounded_bg"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp"
+        android:orientation="vertical"
+        android:paddingTop="24dp"
+        android:scrollbars="none">
+    </ListView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-       
-            android:orientation="vertical">
-            <!--android:background="@drawable/rounded_bg"-->
-            <ListView
-                android:id="@+id/list"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:layout_margin="10dp"
-                android:layout_weight="1"
-                android:divider="@android:color/transparent"
-                android:dividerHeight="10dp"
-                android:orientation="vertical"
-                android:scrollbars="none">
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="36dip"
+        android:layout_height="36dip"
+        android:layout_marginLeft="8dp"
+        android:src="@drawable/close"/>
 
-            </ListView>
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-</LinearLayout>
+</RelativeLayout>
