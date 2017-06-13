@@ -1,0 +1,15 @@
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+*.iml
+*.idea
+credential.properties
+app/build
+bee/build
+.travis.yml
+gradlew
+gradlew.bat
+/gradle
