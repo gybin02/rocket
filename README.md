@@ -1,7 +1,7 @@
 
 #Rocket
 开发过程辅助工具，QA/Debug Tool 
-<img src='/blob/master/images/logo.png' width='128' height='128'></img>
+<img src='/images/logo.png' width='128' height='128'></img>
 
 #### 功能
 Rocket是一个简单但是好用的小工具。 可以用来给开发者或者QA 一个界面配置功能和选项，或者一些额外的信息，比如LogCat输出等；
@@ -12,8 +12,8 @@ Rocket 实现以下几个配置：
 - 可以显示一些额外的信息，比如：安装版本，服务器环境等；
 - 可以用来显示LogCat,或者比如QaTest 之类的查看Event参数；可以查看一个Event是不是被触发了。
 
-<img src='/blob/master/images/rocket0.png'></img>
-<img src='/blob/master/images/rocket1.png'></img>
+<img src='/images/rocket0.png'></img>
+<img src='/images/rocket1.png'></img>
 
 #### 安装
 ```groovy
