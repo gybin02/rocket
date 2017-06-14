@@ -4,20 +4,30 @@ repositories {
     mavenCentral()
 }
 
+//服务器地址
+def deployUrl = "http://192.168.10.230:8081/nexus/content/repositories/snapshots/"
+def deployReleaseUrl = "http://192.168.10.230:8081/nexus/content/repositories/releases/"
+def thirdpartyUrl = "http://192.168.10.230:8081/nexus/content/repositories/thirdparty/"
+//账号密码
+def deployUserName = "admin"
+def deployPassword = "admin123"
+//打包格式
+def PACKAGE_FORMAT = "aar"
+
 //for project dependency
 project.group = GROUP_ID
 project.version = COMPONENT_VERSION
-task deploy <<{
+task deploy << {
 }
 deploy.dependsOn uploadArchives
 
 uploadArchives {
     def typePattern = ~"[0-9]\\.[0-9]\\.[0-9]\$"
     def depolyTypeUrl
-    if(typePattern.matcher(COMPONENT_VERSION)){
+    if (typePattern.matcher(COMPONENT_VERSION)) {
         println "warn ! find release version! will deploy release aar! version is $COMPONENT_VERSION  "
-        depolyTypeUrl= deployUrl.replace("snapshots","releases")
-    }else {
+        depolyTypeUrl = deployUrl.replace("snapshots", "releases")
+    } else {
         depolyTypeUrl = deployUrl
     }
     //depolyTypeUrl= deployUrl.replace("snapshots","releases")
