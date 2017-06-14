@@ -1,7 +1,7 @@
 
 #Rocket
 开发过程辅助工具，QA/Debug Tool 
-<img src='/images/logo.png' width='128' height='128'></img>
+<img src='/images/logo.png'></img>
 
 #### 功能
 Rocket是一个简单但是好用的小工具。 可以用来给开发者或者QA 一个界面配置功能和选项，或者一些额外的信息，比如LogCat输出等；
