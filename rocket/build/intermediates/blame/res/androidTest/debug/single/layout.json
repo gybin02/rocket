@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/layout/item_settings_checkbox.xml",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/layout/item_settings_checkbox.xml"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/layout/item_settings_button.xml",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/layout/item_settings_button.xml"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/layout/item_content.xml",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/layout/item_content.xml"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/layout/simple_spinner_item.xml",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/layout/simple_spinner_item.xml"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/layout/item_settings_spinner.xml",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/layout/item_settings_spinner.xml"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/layout/container.xml",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/layout/container.xml"
+    }
+]

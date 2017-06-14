@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bee_color">#FBD515</color>
+    <color name="bee_color_pressed">#FFCE00</color>
+    <color name="bee_settings_divider_bg">#B2B2B2</color>
+    <color name="checkbox_color">#BF9B04</color>
+    <drawable name="bee_color">#FFCE00</drawable>
+    <drawable name="bee_color_dark">#ffe49f27</drawable>
+    <drawable name="list_divider">#E8E8E8</drawable>
+    <drawable name="text_bg">#fff</drawable>
+    <drawable name="text_bg_pressed">#bebebe</drawable>
+    <string name="clipboard">Clipboard</string>
+    <string name="debug_close">Close</string>
+    <string name="debug_save">Save</string>
+    <string name="info">Info</string>
+    <string name="log">Log</string>
+    <string name="settings">Settings</string>
+</resources>

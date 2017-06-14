@@ -22,10 +22,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 
         Rocket.init(this)
+              .inject(AppRocketConfig.class);
 //           .setBeeSize(100)
 //           .setBeePosition(Gravity.CENTER)
 //           .setBeeMargin(0, 0, 0, 200)
-              .inject(AppRocketConfig.class);
+        
 
 //        BeeLog.d("MainActivity", "onCreate");
 //        BeeLog.d("MainActivity", "user logged in");

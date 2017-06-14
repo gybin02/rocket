@@ -1,6 +1,7 @@
 
 #Rocket
 开发过程辅助工具，QA/Debug Tool 
+<img src='/blob/master/images/logo.png' width='128' height='128'></img>
 
 #### 功能
 Rocket是一个简单但是好用的小工具。 可以用来给开发者或者QA 一个界面配置功能和选项，或者一些额外的信息，比如LogCat输出等；
@@ -11,17 +12,20 @@ Rocket 实现以下几个配置：
 - 可以显示一些额外的信息，比如：安装版本，服务器环境等；
 - 可以用来显示LogCat,或者比如QaTest 之类的查看Event参数；可以查看一个Event是不是被触发了。
 
+<img src='/blob/master/images/rocket0.png'></img>
+<img src='/blob/master/images/rocket1.png'></img>
+
 #### 安装
 ```groovy
 dependencies {
-  compile 'com.meiyou.jet.rocket:0.0.1-SNAPSHOT'
+  compile 'com.meiyou.plugin.rocket:0.0.1-SNAPSHOT'
 }
 ```
 
 #### 使用
 继承  BeeConfig 新增需要的类；
 ```java
-public class AppBeeConfig extends BeeConfig {
+public class AppRocketConfig extends RocketConfig {
 
     private static final String TAG = "AppBeeConfig";
 
@@ -63,7 +67,7 @@ public class AppBeeConfig extends BeeConfig {
     @Title("显示广告")
     @CheckBox
     public void onShowAdsChecked(boolean isChecked) {
-        Log.d(TAG, "onShowAdsChecked");
+        Log.d(TAG, "是否显示广告： "+isChecked);
     }
 
     /**
@@ -76,10 +80,8 @@ public class AppBeeConfig extends BeeConfig {
     @Title("测试环境")
     @Spinner({"测试", "预发", "正式"})
     public void onEnvironmentSelected(String selectedValue) {
-        Log.d(TAG, "onEndPointSelected");
+        Log.d(TAG, "测试环境： "+selectedValue);
     }
-
-}
 ```
 
 #### Activity 配置，启动 Bee
@@ -90,8 +92,8 @@ public class AppBeeConfig extends BeeConfig {
 @Override protected void onCreate(Bundle savedInstanceState) {
     ...
 
-  Bee.init(this)
-    .inject(AppBeeConfig.class);  //required
+    Rocket.init(this)
+      .inject(AppRocketConfig.class);  //required
 }
 ```
 ####  @Text 显示文字
@@ -106,6 +108,8 @@ public class AppBeeConfig extends BeeConfig {
 #### TODO
 - 常用的一些配置，服务器环境切换,
 - 新增一些常用的功能： 重启APP， Clear Data 重启APP,
+- 配置内容可以通过脚本方式配置； 
+- 配置内容可以通过网络方式修改
 
 #### License 
 Copyright 2017 zhengxiaobin@xiaoyouzi.com

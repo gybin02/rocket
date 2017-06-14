@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/log.png",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/drawable-hdpi-v4/log.png"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/check.png",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/drawable-hdpi-v4/check.png"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/info.png",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/drawable-hdpi-v4/info.png"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/uncheck.png",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/drawable-hdpi-v4/uncheck.png"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/settings.png",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/drawable-hdpi-v4/settings.png"
+    },
+    {
+        "merged": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/spinner_bg.9.png",
+        "source": "/Users/tony/Downloads/bee-master/rocket/build/intermediates/bundles/debug/res/drawable-hdpi-v4/spinner_bg.9.png"
+    }
+]

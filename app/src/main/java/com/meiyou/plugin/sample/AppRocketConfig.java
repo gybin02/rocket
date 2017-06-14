@@ -50,7 +50,7 @@ public class AppRocketConfig extends RocketConfig {
     @Title("显示广告")
     @CheckBox
     public void onShowAdsChecked(boolean isChecked) {
-        Log.d(TAG, "onShowAdsChecked");
+        Log.d(TAG, "是否显示广告： "+isChecked);
     }
 
     /**
@@ -63,7 +63,7 @@ public class AppRocketConfig extends RocketConfig {
     @Title("测试环境")
     @Spinner({"测试", "预发", "正式"})
     public void onEnvironmentSelected(String selectedValue) {
-        Log.d(TAG, "onEndPointSelected");
+        Log.d(TAG, "测试环境： "+selectedValue);
     }
 
 }
