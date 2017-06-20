@@ -30,7 +30,7 @@ dependencies {
 ```
 
 #### 使用
-继承  BeeConfig 新增需要的类；
+继承  RocketConfig 新增需要的类；
 ```java
 public class AppRocketConfig extends RocketConfig {
 
