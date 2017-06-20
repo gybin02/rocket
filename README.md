@@ -91,7 +91,7 @@ public class AppRocketConfig extends RocketConfig {
     }
 ```
 
-#### Activity 配置，启动 Bee
+#### Activity 配置，启动悬浮窗 
 
 你可以初始化在 具体的 activity里面 或者在BaseActivity,这样每个页面都可以用；
 
