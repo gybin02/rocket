@@ -18,6 +18,8 @@ Rocket 实现以下几个配置：
 - 可以用来显示LogCat,或者比如QaTest 之类的查看Event参数；可以查看一个Event是不是被触发了。
 
 <img src='/images/rocket0.png'></img>
+
+
 <img src='/images/rocket1.png'></img>
 
 #### 安装
